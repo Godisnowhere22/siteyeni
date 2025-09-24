@@ -11,32 +11,25 @@ const SolutionsPage = () => {
       title: "Stok Kontrol Sistemi",
       icon: TrendingUp,
       color: "from-blue-500 to-purple-500",
-      problem: `Geleneksel stok yönetimi genellikle Excel tabloları, manuel sayımlar veya ERP'ye işlenen gecikmeli kayıtlarla yürütülür. Bu yöntemler:
-
-Zaman kaybı yaratır (stok sorumluları sürekli kontrol yapmak zorunda kalır),
-Hatalara açıktır (eksik / fazla kayıt, unutulan siparişler),
-Kritik riskler doğurur (stok tükenmesi, fazla stoklama, yanlış sipariş).
-
-Bu hatalar yalnızca maliyetleri artırmakla kalmaz, aynı zamanda üretim hattını durma noktasına getirebilir.`,
+      problem: `Geleneksel stok yönetimi genellikle Excel tabloları, manuel sayımlar veya ERP'ye işlenen gecikmeli kayıtlarla yürütülür. Bu yöntemler zaman kaybına yol açar, insan hatalarına açıktır ve stok tükenmesi, fazla stoklama ya da yanlış sipariş gibi kritik riskler doğurur. Bu hatalar yalnızca maliyetleri artırmakla kalmaz, aynı zamanda üretim hattının durmasına kadar gidebilecek sonuçlar doğurur.`,
       solution:
-        "PrismaCore Stok Kontrol Sistemi, tüm stok hareketlerini gerçek zamanlı takip ederek işletmenizin depo ve üretim süreçlerini uçtan uca dijitalleştirir.",
+        "PrismaCore Stok Kontrol Sistemi, tüm stok hareketlerini gerçek zamanlı izleyerek depo ve üretim süreçlerini uçtan uca dijitalleştirir. Her ürünün mevcut seviyesi anlık olarak takip edilir, kritik stoklara ulaşıldığında otomatik bildirimler devreye girer. Tedarikçilerle sağlanan entegrasyon sayesinde sipariş süreçleri doğrudan ve hatasız yönetilir. Tüm stok hareketleri, tüketim eğilimleri ve maliyet dağılımları düzenli raporlarla yöneticilere sunulur.",
       details:
-        "• Anlık Stok Takibi: Her ürünün mevcut seviyesi sürekli izlenir ve kritik seviyeye düşüldüğünde otomatik bildirim gelir.\n\n• Tedarikçi Entegrasyonu: Dış tedarikçilerle bağlantı kurarak siparişleri doğrudan aktarır, iletişim hatalarını önler.\n\n• Detaylı Raporlama: Stok hareketleri, tüketim eğilimleri ve maliyet dağılımları düzenli raporlanır.",
+        "",
       benefits: [
-        "Hata oranı minimuma iner → Yanlış kayıtlar, unutulan ürünler ve hatalı siparişler ortadan kalkar",
+        "Hata oranı minimuma iner → Yanlış kayıtlar ve hatalı siparişler ortadan kalkar",
         "Maliyet kontrol altına alınır → Gereksiz stok yükü azalır, nakit akışı dengelenir",
-        "Zaman tasarrufu sağlar → Çalışanlar manuel kontrol yerine stratejik işlere odaklanır",
+        "Zaman tasarrufu sağlar → Çalışanlar manuel işler yerine stratejik konulara odaklanır",
         "Kesintisiz üretim garanti edilir → Stok tükenmesi riski ortadan kalkar"
       ],
       features: [
         "Anlık stok takibi ve kritik seviye uyarıları",
-        "Akıllı sipariş yönetimi ve trend analizi",
         "Tedarikçi entegrasyonu",
         "Detaylı raporlama ve analiz",
         "Gerçek zamanlı bildirimler"
       ],
       usageScenario:
-        "Bir üretim tesisini düşünün: Kritik bir hammadde stok seviyesi azaldığında sistem otomatik bildirim gönderir. Yönetici onay verirse, sistem tedarikçiye sipariş talebini doğrudan iletir. Bu süreçte:\n\nİnsan hatası devreden çıkar,\n\nÜretim hattı asla malzeme beklemez,\n\nFirma her zaman optimum stok seviyesinde kalır."
+        "Bir üretim tesisinde kritik bir hammadde seviyesi azaldığında sistem yöneticiyi anında bilgilendirir. Onay verildiğinde sipariş talebi otomatik olarak tedarikçiye iletilir. Böylece insan hatası ortadan kalkar, üretim hattı malzeme beklemek zorunda kalmaz ve firma her zaman optimum stok seviyesinde kalır."
     },
     {
       id: 'bakim-kalibrasyon',
