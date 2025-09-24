@@ -37,11 +37,11 @@ const SolutionsPage = () => {
       icon: Bell,
       color: "from-green-500 to-blue-500",
       problem:
-        "İşletmelerde bakım zamanlarının kaçırılması veya düzensiz yapılması: Arızaların artmasına, plansız duruşlara, bakım maliyetlerinin yükselmesine, ekipman ömrünün kısalmasına yol açar. Çoğu zaman bakım kayıtları Excel veya defterlerde tutulur, ekip arasındaki iletişim kopukluğu yüzünden yapılması gereken işlemler atlanır. Bu da ciddi üretim kayıplarına sebep olur.",
+        "İşletmelerde bakım zamanlarının kaçırılması veya düzensiz yapılması; arızaların artmasına, plansız duruşlara, bakım maliyetlerinin yükselmesine ve ekipman ömrünün kısalmasına yol açar. Çoğu zaman bakım kayıtları hâlâ Excel ya da defterlerde tutulur. Ekipler arası iletişim kopukluğu nedeniyle yapılması gereken işlemler gözden kaçabilir ve bu durum ciddi üretim kayıplarına sebep olur.",
       solution:
-        "PrismaCore Bakım & Kalibrasyon Sistemi, tüm ekipman bakım süreçlerini otomatikleştirir ve hatırlatmalarla süreci kesintisiz hale getirir.",
+        "PrismaCore Bakım & Kalibrasyon Sistemi, tüm ekipman bakım süreçlerini otomatikleştirir ve hatırlatmalarla süreci kesintisiz hale getirir. Her cihaz için bakım tarihleri otomatik belirlenir ve sisteme işlenir. Ekipmanların kim tarafından ve ne zaman bakıma alındığı kayıt altında tutulur. WhatsApp entegrasyonu sayesinde ekip sorumlularına doğrudan hatırlatmalar gönderilir. Tüm işlemler geçmişe dönük raporlanır ve yönetim tek ekrandan tüm bakım sürecini takip edebilir.",
       details:
-        "• Otomatik Bakım Planlaması: Her ekipman için bakım tarihleri otomatik belirlenir ve takvime işlenir.\n\n• Ekipman Takip Sistemi: Hangi cihazın ne zaman ve kim tarafından bakıma alındığı kayıt altında tutulur.\n\n• WhatsApp Entegrasyonu: Ekip sorumlularına doğrudan WhatsApp üzerinden hatırlatmalar gönderilir.\n\n• Geçmiş Raporlama: Tüm bakım işlemleri kayıt altına alınır ve detaylı raporlanır.",
+        "",
       benefits: [
         "Arızalar önemli ölçüde azalır, üretim kesintiye uğramaz",
         "Bakım maliyetleri düşer, gereksiz servis çağrıları önlenir",
@@ -56,7 +56,7 @@ const SolutionsPage = () => {
         "Kalibrasyon hatırlatmaları"
       ],
       usageScenario:
-        "Bir fabrikanın üretim hattında kritik makinenin yağ değişim zamanı yaklaşmıştır. Sistem, ilgili teknisyene WhatsApp üzerinden hatırlatma gönderir. Teknisyen işlemi yaptıktan sonra rapor sisteme işlenir. Yönetim, tüm bakım kayıtlarını tek ekranda görebilir. Böylece hiçbir bakım gözden kaçmaz, üretim sürekliliği korunur."
+        "Bir fabrikanın üretim hattında kritik bir makinenin yağ değişim zamanı yaklaşmıştır. Sistem, ilgili teknisyene WhatsApp üzerinden hatırlatma gönderir. Teknisyen işlemi tamamladıktan sonra rapor otomatik olarak sisteme işlenir. Yönetim, tüm bakım kayıtlarını tek ekrandan görerek hiçbir bakımın gözden kaçmamasını sağlar. Böylece üretim sürekliliği garanti altına alınır."
     },
     {
       id: 'merkezi-kontrol',
