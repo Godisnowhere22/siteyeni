@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1024 1024"
+     width="100%"
+     height="100%"
+     preserveAspectRatio="xMidYMid meet"
+     style="display:block">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00f0ff; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a020f0; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- stroke kalınlığı büyütmede bozulmasın -->
+  <g fill="url(#gradient)" stroke="white" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" vector-effect="non-scaling-stroke">
+    <polygon points="395,557 402,573 428,582 401,553" />
+    <polygon points="575,549 558,553 537,590 582,561" />
+    <polygon points="381,525 366,542 381,535" />
+    <polygon points="590,522 583,542 605,574 604,534" />
+    <polygon points="410,537 510,606 540,551 536,547 449,512" />
+    <polygon points="383,491 364,496 362,507" />
+    <polygon points="658,453 587,501 626,534" />
+    <polygon points="441,425 403,450 403,528 440,504" />
+    <polygon points="659,409 638,425 658,420" />
+    <polygon points="619,387 582,412 582,491 619,466" />
+    <polygon points="395,385 363,464 432,417" />
+    <polygon points="481,376 452,413 452,501 541,538 571,499 570,413" />
+    <polygon points="654,375 641,381 641,390" />
+    <polygon points="416,345 416,383 430,395 437,378" />
+    <polygon points="597,337 622,363 627,359 619,343" />
+    <polygon points="485,331 439,360 446,371 462,368" />
+    <polygon points="483,363 575,403 611,379 512,314" />
+  </g>
+</svg>

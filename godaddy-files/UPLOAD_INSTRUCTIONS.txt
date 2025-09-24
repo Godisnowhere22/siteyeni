@@ -1,0 +1,22 @@
+GoDaddy Yükleme Talimatları
+==========================
+
+Bu klasördeki TÜM dosyaları GoDaddy'nin public_html klasörüne yükleyin.
+
+Yükleme Adımları:
+1. GoDaddy cPanel'e girin
+2. File Manager'ı açın
+3. public_html klasörüne gidin
+4. Bu klasördeki TÜM dosyaları seçin
+5. Upload edin
+6. Dosya yapısını koruyun (assets klasörü olduğu gibi kalmalı)
+
+Önemli Notlar:
+- index.html dosyası ana sayfa olacak
+- assets/ klasörü CSS ve JS dosyalarını içeriyor
+- Resim dosyaları (png, jpeg) logo ve fotoğraflar
+- Tüm dosyalar gerekli, hiçbirini atlamamaya dikkat edin
+
+Site URL'niz: https://yourdomain.com
+
+Sorun yaşarsanız: info@prismacore.ai
