@@ -64,26 +64,25 @@ const SolutionsPage = () => {
       icon: FileText,
       color: "from-purple-500 to-pink-500",
       problem:
-        "Bir fabrikanın veya üretim tesisinin içinde stok yönetimi, bakım & kalibrasyon, kalite kontrol ve ödeme takibi gibi farklı alanlarda çalışan sistemler bulunur. Ancak bu süreçler ayrı ayrı takip edildiğinde: Yöneticiler için bilgi dağınıklığı oluşur, gerçek zamanlı görünürlük kaybolur, karar alma süreçleri yavaşlar, raporlama zaman alır. Her modül tek başına güçlü olsa da, tümünü tek merkezden yönetmek daha üst düzey bir kontrol sağlar.",
+        "Bir fabrikanın veya üretim tesisinin içinde stok yönetimi, bakım & kalibrasyon, kalite kontrol ve ödeme takibi gibi birçok kritik süreç bulunur. Bu süreçler ayrı ayrı takip edildiğinde yöneticiler için bilgi dağınıklığı oluşur, gerçek zamanlı görünürlük kaybolur, karar alma süreçleri yavaşlar ve raporlama zaman alır. Her modül tek başına güçlü olsa da, tümünün tek merkezden yönetilmesi çok daha yüksek düzeyde kontrol ve verimlilik sağlar.",
       solution:
-        "Merkezi Kontrol Sistemi, PrismaCore'un tüm çözümlerini tek bir panel altında toplar. Yöneticiler, işletmenin tüm kritik süreçlerini gerçek zamanlı olarak takip edebilir.",
+        "Merkezi Kontrol Sistemi, PrismaCore'un tüm çözümlerini tek bir panel altında toplayarak işletmenin kritik operasyonlarını uçtan uca görünür hale getirir. Yöneticiler, stok seviyelerinden bakım takvimine, kalite raporlarından müşteri ödemelerine kadar tüm süreci anlık olarak tek ekrandan takip eder. Kritik eşikler aşıldığında otomatik bildirimler devreye girer, modüller arası entegrasyon sayesinde bakım için kullanılan malzemeler stoktan otomatik düşülür. Tüm veriler düzenli raporlarla yönetime sunulur.",
       details:
-        "• Tek Ekranda Görünürlük: Stok, bakım, kalite ve ödeme durumları tek panelde görüntülenir.\n\n• Gerçek Zamanlı Bildirimler: Kritik eşikler (azalan stok, yaklaşan bakım, geciken ödeme) anında bildirilir.\n\n• Modüller Arası Entegrasyon: Bakım malzemeleri otomatik stoktan düşülür, süreçler birbiriyle eşleştirilir.\n\n• Yönetici Raporları: Tüm modüllerden gelen veriler analiz edilerek haftalık/aylık raporlar sunulur.\n\n• Mobil Erişim: Uzaktan tüm süreçler canlı takip edilebilir.",
+        "",
       benefits: [
         "Tüm süreçler tek merkezden kontrol edilir, bilgi dağınıklığı sona erer",
         "Kararlar veriye dayalı alınır, riskler önceden görülür",
         "Zaman kaybı azalır, yönetim operasyonel iş yükünden kurtulur",
-        "Şeffaflık artar, hem çalışan hem de müşteri tarafında güven oluşur"
+        "Şeffaflık artar, çalışan ve müşteri tarafında güven oluşur"
       ],
       features: [
         "Tek ekranda görünürlük",
         "Gerçek zamanlı bildirimler",
         "Modüller arası entegrasyon",
-        "Yönetici raporları",
-        "Mobil ve web erişim"
+        "Yönetici raporları"
       ],
       usageScenario:
-        "Bir fabrika yöneticisi sabah ofisine geldiğinde Merkezi Kontrol Sistemi panelini açar. Depo stok seviyelerini, gün içinde yapılacak bakım görevlerini, kalite kontrol raporlarını, vadesi yaklaşan müşteri ödemelerini tek ekrandan görür. Kritik bir durum varsa (örneğin bir makinenin bakımı gecikmişse veya bir ödeme vadesi aşılmışsa), sistem bunu otomatik bildirimle yöneticinin önüne getirir. Böylece yönetici hem operasyonel detaylara hakim olur hem de stratejik kararlarını güvenle alır."
+        "Bir fabrika yöneticisi sabah ofisine geldiğinde Merkezi Kontrol Sistemi panelini açar. Depo stok seviyelerini, gün içinde yapılacak bakım görevlerini, kalite kontrol raporlarını ve vadesi yaklaşan müşteri ödemelerini tek ekranda görür. Kritik bir durum varsa, örneğin bir makinenin bakımı gecikmişse veya bir ödeme vadesi aşılmışsa, sistem otomatik bildirimle yöneticiyi bilgilendirir. Böylece yönetici hem operasyonel detaylara hâkim olur hem de stratejik kararlarını güvenle alabilir."
     },
     {
       id: 'odeme-takip',
