@@ -260,11 +260,11 @@ const SolutionsPage = () => {
       {/* Solutions Grid */}
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto items-stretch">
             {solutions.map((solution) => (
               <div
                 key={solution.id}
-                className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+                className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col"
               >
                 <div className="flex items-center space-x-4 mb-6">
                   <div className={`p-4 rounded-xl bg-gradient-to-r ${solution.color} shadow-lg`}>
@@ -275,7 +275,7 @@ const SolutionsPage = () => {
                   </h3>
                 </div>
 
-                <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed flex-grow">
                   {solution.solution}
                 </p>
 
@@ -289,13 +289,15 @@ const SolutionsPage = () => {
                   ))}
                 </div>
 
-                <Link
-                  to={`/cozumler/${solution.id}`}
-                  className={`inline-flex items-center w-full justify-center px-6 py-3 bg-gradient-to-r ${solution.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200`}
-                >
-                  Detayları İncele
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
+                <div className="mt-auto">
+                  <Link
+                    to={`/cozumler/${solution.id}`}
+                    className={`inline-flex items-center w-full justify-center px-6 py-3 bg-gradient-to-r ${solution.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200`}
+                  >
+                    Detayları İncele
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
