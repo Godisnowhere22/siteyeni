@@ -90,30 +90,25 @@ const SolutionsPage = () => {
       icon: CreditCard,
       color: "from-orange-500 to-red-500",
       problem:
-        "Şirketlerde müşteri ödemelerinin manuel olarak takip edilmesi; geciken tahsilatlar, unutulan ödemeler, eksik veya yanlış kayıtlar, nakit akışında belirsizlik gibi sorunlara yol açar. Bu durum işletmenin finansal dengesini bozduğu gibi, müşteri ilişkilerinde de güven kaybı oluşturur. Özellikle birden fazla müşterisi ve sürekli hareketi olan şirketlerde, manuel takip sürdürülebilir olmaktan çıkar.",
+        "Şirketlerde müşteri ödemelerinin manuel olarak takip edilmesi; geciken tahsilatlar, unutulan ödemeler, eksik veya yanlış kayıtlar ve nakit akışında belirsizlik gibi sorunlara yol açar. Bu durum işletmenin finansal dengesini bozduğu gibi müşteri ilişkilerinde de güven kaybına neden olur. Özellikle çok sayıda müşterisi ve sürekli hareketi olan şirketlerde manuel takip sürdürülebilir olmaktan çıkar.",
       solution:
-        "PrismaCore Ödeme Takip Sistemi, müşteri ödemelerini uçtan uca dijitalleştirir ve tahsilat süreçlerini otomatik hale getirir.",
+        "PrismaCore Ödeme Takip Sistemi, müşteri ödemelerini uçtan uca dijitalleştirerek tahsilat süreçlerini otomatik hale getirir. Vade tarihi yaklaşan ödemeler için WhatsApp veya e-posta üzerinden hatırlatmalar gönderilir. Vadesi geçen ödemeler anında yöneticilere bildirilir ve tüm süreç şeffaf şekilde raporlanır.",
       details:
-        "• Fatura Kaydı: Her müşteri için fatura bilgileri sisteme girilir veya ERP'den otomatik alınır.\n\n• Otomatik Hatırlatmalar: Vade tarihi yaklaşan ödemeler için WhatsApp/e-posta hatırlatmaları gönderilir.\n\n• Gecikme Yönetimi: Ödemesi geciken müşteriler için sistem uyarı verir ve yöneticilere bildirim gönderir.\n\n• Tahsilat Raporları: Ödeme oranları, geciken tahsilatlar ve nakit akışı detaylı raporlanır.\n\n• Müşteri Portalı: Müşteriler özel bağlantıdan fatura ve ödeme durumlarını görüntüleyebilir.",
+        "",
       benefits: [
         "Geciken tahsilatlar azalır, nakit akışı düzenli hale gelir",
         "Ödeme hatırlatma süreçleri otomatikleşir, insan hatası ortadan kalkar",
-        "Finansal raporlar netleşir, yöneticiler gerçek veriler üzerinden karar alır",
-        "Müşteri memnuniyeti artar, çünkü ödeme süreçleri daha şeffaf ve kolay takip edilebilir hale gelir"
+        "Finansal raporlar netleşir, yöneticiler doğru verilerle karar alır",
+        "Müşteri memnuniyeti artar, çünkü ödeme süreçleri şeffaf ve kolay takip edilebilir hale gelir"
       ],
       features: [
-        "Fatura ve ödeme kaydı",
-        "Otomatik hatırlatmalar",
-        "Gecikme yönetimi",
+        "Otomatik ödeme hatırlatmaları",
+        "Vade takibi",
         "Raporlama ve analiz",
-        "Müşteri entegrasyonu",
-        "Vade hatırlatmaları",
-        "Müşteri ödeme geçmişi",
-        "Tahsilat raporları",
-        "SMS/Email entegrasyonu"
+        "E-posta / WhatsApp entegrasyonu"
       ],
       usageScenario:
-        "Bir toptan satış firmasında vadesi yaklaşan faturalar için sistem müşterilere otomatik WhatsApp mesajı gönderir. Müşteri ödemesini yaptıktan sonra sistem kaydı günceller ve yönetim panelinde 'tamamlandı' olarak işaretler. Böylece finans departmanı ek bir efor sarf etmez, hiçbir ödeme gözden kaçmaz, firma düzenli bir nakit akışı sağlar."
+        "Bir toptan satış firmasında vadesi yaklaşan faturalar için sistem müşterilere otomatik WhatsApp mesajı gönderir. Müşteri ödemesini yaptıktan sonra kayıt anında güncellenir ve yönetim panelinde \"tamamlandı\" olarak işaretlenir. Böylece finans departmanı ek bir efor sarf etmez, hiçbir ödeme gözden kaçmaz ve firma düzenli bir nakit akışı sağlar."
     }
   ];
 
