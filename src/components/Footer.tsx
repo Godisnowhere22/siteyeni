@@ -19,7 +19,7 @@ const Footer = () => {
                 style={{ userSelect: 'none', WebkitUserSelect: 'none', MozUserSelect: 'none' }}
               />
              <div>
-               <h3 className="text-lg font-bold text-white">
+               <h3 className="text-lg font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
                  PrismaCore
                </h3>
                <div className="text-xs font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mt-1 leading-tight">
