@@ -28,7 +28,7 @@ const AboutPage = () => {
     {
       year: "2025 Q4",
       title: "Resmi Kuruluş ve Gelecek Planları",
-      description: "PrismaCore.ai resmen kuruldu. Şirketin odağı, Türkiye'deki başarıyı Avrupa ve MENA pazarına açılarak daha geniş bir alana taşımak."
+      description: "PrismaCore resmen kuruldu. Şirketin odağı, Türkiye'deki başarıyı Avrupa ve MENA pazarına açılarak daha geniş bir alana taşımak."
     }
   ];
 
@@ -178,7 +178,7 @@ const AboutPage = () => {
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               Alanında uzman, deneyimli kurucularımız endüstriyel otomasyon alanındaki birikimleriyle 
-              PrismaCore.ai'yi hayata geçirdiler
+              PrismaCore'u hayata geçirdiler
             </p>
           </div>
 
