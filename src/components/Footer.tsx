@@ -18,11 +18,13 @@ const Footer = () => {
                 onDragStart={(e) => e.preventDefault()}
                 style={{ userSelect: 'none', WebkitUserSelect: 'none', MozUserSelect: 'none' }}
               />
-             <h3 className="text-lg font-bold text-white">
-                PrismaCore.ai
-              </h3>
-              <div className="text-xs font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mt-1 leading-tight">
-                Yapay Zeka Otomasyon Sistemleri
+             <div>
+               <h3 className="text-lg font-bold text-white">
+                 PrismaCore
+               </h3>
+               <div className="text-xs font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mt-1 leading-tight">
+                 Yapay Zeka Otomasyon Sistemleri
+               </div>
               </div>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
