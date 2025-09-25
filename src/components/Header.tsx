@@ -33,6 +33,9 @@ const Header = () => {
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
                 PrismaCore
               </span>
+              <div className="text-xs font-medium text-gray-600 dark:text-gray-400 mt-1 leading-tight">
+                Yapay Zeka Otomasyon Sistemleri
+              </div>
             </span>
           </Link>
 
