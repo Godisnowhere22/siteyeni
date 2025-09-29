@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="500" viewBox="0 0 3200 500">
+  <defs>
+    <linearGradient id="prismaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00B7FF"/>
+      <stop offset="50%" stop-color="#1F80FF"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+      .brand {
+        font-family: 'Poppins', 'Montserrat', Arial, sans-serif;
+        font-weight: 700;
+        font-size: 160px;
+        letter-spacing: 0;
+        fill: url(#prismaGrad);
+      }
+    ]]></style>
+  </defs>
+  <rect x="0" y="0" width="3200" height="500" fill="none"/>
+  <text class="brand" x="60" y="320">Yapay Zeka Otomasyon Sistemleri</text>
+</svg>
