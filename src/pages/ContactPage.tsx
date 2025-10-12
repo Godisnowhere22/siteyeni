@@ -9,14 +9,14 @@ const ContactPage = () => {
       <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               <span className="text-gray-900 dark:text-white">İletişime</span>
               <br />
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
                 Geçin
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed px-4">
               İşinize özel çözümlerimizi keşfetmek için toplantı rezervasyonu yapın
             </p>
           </div>
@@ -26,15 +26,15 @@ const ContactPage = () => {
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
               {/* Meeting Booking Form */}
               <MeetingBookingForm />
 
               {/* Contact Information */}
               <div className="space-y-8">
                 {/* Direct Contact */}
-                <div className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-xl">
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+                <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 sm:p-8 shadow-xl">
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">
                     İletişim Bilgileri
                   </h3>
                   
@@ -67,7 +67,7 @@ const ContactPage = () => {
                       href="https://wa.me/905469736427"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center w-full justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors duration-200"
+                      className="inline-flex items-center w-full justify-center px-4 sm:px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
                     >
                       <MessageSquare className="mr-2 h-5 w-5" />
                       WhatsApp ile İletişim
@@ -76,22 +76,22 @@ const ContactPage = () => {
                 </div>
 
                 {/* Response Time */}
-                <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl p-8">
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
+                <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl p-6 sm:p-8">
+                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-4">
                     Hızlı Yanıt Garantisi
                   </h3>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-700 dark:text-gray-300">24 saat içinde ilk yanıt</span>
+                      <span className="text-sm sm:text-base text-gray-700 dark:text-gray-300">24 saat içinde ilk yanıt</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-700 dark:text-gray-300">48 saat içinde detaylı görüşme</span>
+                      <span className="text-sm sm:text-base text-gray-700 dark:text-gray-300">48 saat içinde detaylı görüşme</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-700 dark:text-gray-300">1 hafta içinde özel analiz raporu</span>
+                      <span className="text-sm sm:text-base text-gray-700 dark:text-gray-300">1 hafta içinde özel analiz raporu</span>
                     </div>
                   </div>
                 </div>

@@ -82,14 +82,14 @@ const AboutPage = () => {
       <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               <span className="text-gray-900 dark:text-white">Endüstrinin</span>
               <br />
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
                 Dijital Partneri
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed px-4">
               Manuel süreçleri ortadan kaldırarak, endüstriyel işletmelerin verimliliğini artırıyoruz
             </p>
           </div>
@@ -99,25 +99,25 @@ const AboutPage = () => {
       {/* Mission & Vision */}
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-            <div className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 sm:p-8 shadow-lg">
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center mb-6">
                 <Target className="h-8 w-8 text-white" />
               </div>
-              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Misyonumuz</h2>
-              <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4">Misyonumuz</h2>
+              <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg leading-relaxed">
                 Endüstriyel işletmelerde manuel hataları ortadan kaldırmak, süreçleri optimize etmek ve 
                 çalışanların zamanını daha değerli işlere ayırmasını sağlamak. Her şirkete özel, 
                 kullanımı kolay ve etkili otomasyon çözümleri sunuyoruz.
               </p>
             </div>
 
-            <div className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 sm:p-8 shadow-lg">
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-6">
                 <Globe className="h-8 w-8 text-white" />
               </div>
-              <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Vizyonumuz</h2>
-              <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-4">Vizyonumuz</h2>
+              <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg leading-relaxed">
                 2030 yılına kadar Avrupa ve MENA bölgesinin en güvenilir endüstriyel otomasyon ortağı olmak. 
                 Binlerce şirketin dijital dönüşümüne öncülük ederek, endüstrinin geleceğini şekillendirmek.
               </p>
@@ -130,10 +130,10 @@ const AboutPage = () => {
       <section className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
               Hikayemiz
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto px-4">
               Küçük bir fikirden başlayarak, endüstriyel otomasyonda devrim yaratan bir hikaye
             </p>
           </div>
@@ -149,15 +149,15 @@ const AboutPage = () => {
                   <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full border-4 border-white dark:border-gray-800 shadow-lg z-10" />
                   
                   {/* Content */}
-                  <div className={`w-5/12 ${index % 2 === 0 ? 'text-right pr-8' : 'text-left pl-8'}`}>
-                    <div className="bg-white dark:bg-gray-900 rounded-xl p-6 shadow-lg">
-                      <div className="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-2">
+                  <div className={`w-full sm:w-5/12 ${index % 2 === 0 ? 'sm:text-right sm:pr-8' : 'sm:text-left sm:pl-8'} text-center`}>
+                    <div className="bg-white dark:bg-gray-900 rounded-xl p-4 sm:p-6 shadow-lg">
+                      <div className="text-xl sm:text-2xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                         {event.year}
                       </div>
-                      <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                      <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-3">
                         {event.title}
                       </h3>
-                      <p className="text-gray-600 dark:text-gray-300">
+                      <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
                         {event.description}
                       </p>
                     </div>
@@ -173,10 +173,10 @@ const AboutPage = () => {
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
               Kurucularımız
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto px-4">
               Alanında uzman, deneyimli kurucularımız endüstriyel otomasyon alanındaki birikimleriyle 
               PrismaCore'u hayata geçirdiler
             </p>
@@ -184,19 +184,19 @@ const AboutPage = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {founders.map((founder, index) => (
-              <div key={index} className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg text-center">
+              <div key={index} className="bg-white dark:bg-gray-900 rounded-2xl p-6 sm:p-8 shadow-lg text-center">
                 <img
                   src={founder.avatar}
                   alt={founder.name}
-                  className="w-40 h-40 rounded-full mx-auto mb-6 object-cover shadow-xl border-4 border-white dark:border-gray-800 select-none pointer-events-none"
+                  className="w-32 sm:w-40 h-32 sm:h-40 rounded-full mx-auto mb-6 object-cover shadow-xl border-4 border-white dark:border-gray-800 select-none pointer-events-none"
                   onContextMenu={(e) => e.preventDefault()}
                   onDragStart={(e) => e.preventDefault()}
                   style={{ userSelect: 'none', WebkitUserSelect: 'none', MozUserSelect: 'none' }}
                 />
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-2">
                   {founder.name}
                 </h3>
-                <div className="text-blue-600 dark:text-blue-400 font-medium mb-4">
+                <div className="text-sm sm:text-base text-blue-600 dark:text-blue-400 font-medium mb-4">
                   {founder.title}
                 </div>
               </div>
@@ -209,24 +209,24 @@ const AboutPage = () => {
       <section className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
               Değerlerimiz
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto px-4">
               Her çözümümüzde ve müşteri ilişkimizde rehber aldığımız temel değerler
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-6xl mx-auto">
             {values.map((value, index) => (
-              <div key={index} className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg text-center">
+              <div key={index} className="bg-white dark:bg-gray-900 rounded-2xl p-6 sm:p-8 shadow-lg text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center mx-auto mb-6">
                   <value.icon className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-4">
                   {value.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300">
+                <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">
                   {value.description}
                 </p>
               </div>
@@ -238,15 +238,15 @@ const AboutPage = () => {
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 px-4">
             Geleceği Birlikte İnşa Edelim
           </h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
+          <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto mb-8 px-4">
             Endüstriyel otomasyonda yeni bir çağın kapılarını aralamak için bizimle iletişime geçin
           </p>
           <a
             href="/contact"
-            className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-100 transition-colors duration-200 shadow-lg"
+            className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-100 transition-colors duration-200 shadow-lg text-sm sm:text-base"
           >
             İletişime Geç
           </a>

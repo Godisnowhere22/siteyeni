@@ -33,6 +33,9 @@ const Header = () => {
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
                 PrismaCore
               </span>
+              <div className="text-xs font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mt-1 leading-tight hidden sm:block">
+                Yapay Zeka Otomasyon Sistemleri
+              </div>
               <div className="text-xs font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mt-1 leading-tight">
                 Yapay Zeka Otomasyon Sistemleri
               </div>
@@ -40,7 +43,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden lg:flex space-x-8">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -60,7 +63,7 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
+              className="lg:hidden p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
             >
               {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </button>
@@ -68,7 +71,7 @@ const Header = () => {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
+          <div className="lg:hidden py-4 border-t border-gray-200 dark:border-gray-700">
             <nav className="flex flex-col space-y-2">
               {navigation.map((item) => (
                 <Link

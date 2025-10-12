@@ -70,10 +70,10 @@ const PackagePreviewSection = () => {
     <section className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
             İşinizi Otomatikleştirin 🚀
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto px-4">
             Zaman kaybını, manuel hataları ve gereksiz maliyetleri geride bırakın.
             <br />
             Tüm süreçlerinizi akıllı otomasyonla yönetin.
@@ -85,20 +85,20 @@ const PackagePreviewSection = () => {
           {solutions.map((solution, index) => (
             <div
               key={solution.id}
-              className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 dark:border-gray-700"
+              className="bg-white dark:bg-gray-900 rounded-2xl p-4 sm:p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 dark:border-gray-700"
             >
               {/* Header */}
-              <div className="flex items-center justify-center space-x-4 mb-8">
+              <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-6 sm:mb-8">
                 <div className={`p-4 rounded-xl bg-gradient-to-r ${solution.color} shadow-lg`}>
                   <solution.icon className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-3xl font-bold text-gray-900 dark:text-white text-center">
+                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white text-center">
                   {solution.title}
                 </h3>
               </div>
 
               {/* Problem */}
-              <div className="mb-8">
+              <div className="mb-6 sm:mb-8">
                 <div className="bg-gradient-to-r from-red-900/30 to-red-800/30 rounded-lg p-4 border-l-4 border-red-500 mb-4">
                   <h4 className="text-red-400 font-semibold mb-2 flex items-center">
                     <div className="w-3 h-3 bg-red-500 rounded-full mr-3 animate-pulse" />
@@ -111,7 +111,7 @@ const PackagePreviewSection = () => {
               </div>
 
               {/* Solution */}
-              <div className="mb-8">
+              <div className="mb-6 sm:mb-8">
                 <div className={`bg-gradient-to-r from-blue-900/30 to-purple-900/30 rounded-lg p-4 border-l-4 border-blue-500 mb-4`}>
                   <h4 className="text-blue-400 font-semibold mb-3 flex items-center">
                     <div className="w-3 h-3 bg-blue-500 rounded-full mr-3" />
@@ -125,13 +125,13 @@ const PackagePreviewSection = () => {
               </div>
 
               {/* Benefits */}
-              <div className="mb-8">
+              <div className="mb-6 sm:mb-8">
                 <div className="bg-gradient-to-r from-green-900/30 to-emerald-900/30 rounded-lg p-4 border-l-4 border-green-500">
                   <h4 className="text-green-400 font-semibold mb-4 flex items-center">
                     <div className="w-3 h-3 bg-green-500 rounded-full mr-3" />
                     Sonuç olarak:
                   </h4>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {solution.benefits.map((benefit, benefitIndex) => (
                       <div key={benefitIndex} className="flex items-center space-x-3 group">
                         <CheckCircle className="h-5 w-5 text-green-400 flex-shrink-0 group-hover:scale-110 transition-transform duration-200" />
@@ -148,7 +148,7 @@ const PackagePreviewSection = () => {
               <div className="text-center">
                 <Link
                   to={`/cozumler/${solution.id}`}
-                  className={`inline-flex items-center px-8 py-4 bg-gradient-to-r ${solution.color} text-white font-semibold rounded-xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1`}
+                  className={`inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r ${solution.color} text-white font-semibold rounded-xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1 text-sm sm:text-base`}
                 >
                   Detayları İncele
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -161,16 +161,16 @@ const PackagePreviewSection = () => {
         {/* CTA Section */}
         <div className="py-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl">
           <div className="text-center">
-            <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-6 px-4">
               Hangi Çözüm Size Uygun?
             </h3>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-blue-100 mb-8 max-w-2xl mx-auto px-4">
               Uzmanlarımızla görüşerek işinize en uygun otomasyon paketini belirleyin
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 to="/iletisim"
-                className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-100 transition-all duration-200 shadow-lg transform hover:-translate-y-1"
+                className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-100 transition-all duration-200 shadow-lg transform hover:-translate-y-1 text-sm sm:text-base"
               >
                 İletişime Geçin
                 <ArrowRight className="ml-2 h-5 w-5" />

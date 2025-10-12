@@ -5,10 +5,10 @@ import { Linkedin, Mail, Phone } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className="bg-slate-900 text-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {/* Brand Section */}
-          <div className="lg:col-span-2">
+          <div className="sm:col-span-2 lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
                 src="/favicon site.png" 
@@ -19,15 +19,15 @@ const Footer = () => {
                 style={{ userSelect: 'none', WebkitUserSelect: 'none', MozUserSelect: 'none' }}
               />
              <div>
-               <h3 className="text-lg font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
+               <h3 className="text-base sm:text-lg font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
                  PrismaCore
                </h3>
-               <div className="text-xs font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mt-1 leading-tight">
+               <div className="text-xs font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mt-1 leading-tight hidden sm:block">
                  Yapay Zeka Otomasyon Sistemleri
                </div>
               </div>
             </div>
-            <p className="text-gray-300 mb-4 max-w-md">
+            <p className="text-gray-300 mb-4 max-w-md text-sm sm:text-base">
               Yeni Nesil Endüstriyel Otomasyon. Zamanı geri kazandıran, üretimi hızlandıran, 
               hataları sıfırlayan akıllı çözümler sunuyoruz.
             </p>
@@ -45,25 +45,25 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Hızlı Bağlantılar</h3>
+            <h3 className="text-base sm:text-lg font-semibold mb-4">Hızlı Bağlantılar</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm sm:text-base">
                   Ana Sayfa
                 </Link>
               </li>
               <li>
-                <Link to="/cozumler" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <Link to="/cozumler" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm sm:text-base">
                   Çözümler
                 </Link>
               </li>
               <li>
-                <Link to="/hakkimizda" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <Link to="/hakkimizda" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm sm:text-base">
                   Hakkımızda
                 </Link>
               </li>
               <li>
-                <Link to="/iletisim" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <Link to="/iletisim" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm sm:text-base">
                   İletişim
                 </Link>
               </li>
@@ -72,17 +72,17 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">İletişim</h3>
+            <h3 className="text-base sm:text-lg font-semibold mb-4">İletişim</h3>
             <ul className="space-y-3">
               <li className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <a href="mailto:info@prismacore.ai" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <a href="mailto:info@prismacore.ai" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm sm:text-base">
                   info@prismacore.ai
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">+90 (546) 973 64 27</span>
+                <span className="text-gray-300 text-sm sm:text-base">+90 (546) 973 64 27</span>
               </li>
             </ul>
             <div className="mt-4">
@@ -90,7 +90,7 @@ const Footer = () => {
                 href="https://wa.me/905469736427"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition-colors duration-200"
+                className="inline-flex items-center px-3 sm:px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-xs sm:text-sm font-medium rounded-lg transition-colors duration-200"
               >
                 WhatsApp İletişim
               </a>
@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">
+          <p className="text-gray-400 text-xs sm:text-sm">
             © 2024 PrismaCore.ai. Tüm hakları saklıdır. | 
             <span className="text-blue-400 font-medium"> Yeni Nesil Endüstriyel Otomasyon</span>
           </p>

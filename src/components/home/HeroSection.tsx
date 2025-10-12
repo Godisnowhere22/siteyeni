@@ -31,7 +31,7 @@ const HeroSection = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="text-gray-900 dark:text-white">Endüstri İçin</span>
             <br />
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
@@ -42,7 +42,7 @@ const HeroSection = () => {
           {/* Subtitle */}
 
           {/* Slogan */}
-          <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-200 italic font-light max-w-5xl mx-auto leading-relaxed px-8">
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-200 italic font-light max-w-5xl mx-auto leading-relaxed px-4 sm:px-8">
             'Endüstriyel süreçlerde karşılaştığınız en büyük sorunları,<br />
             akıllı otomasyon sistemleri ile çözüme dönüştürüyoruz.'
           </p>

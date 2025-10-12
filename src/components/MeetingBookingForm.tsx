@@ -277,7 +277,7 @@ const MeetingBookingForm = () => {
 
   return (
     <div className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-xl">
-      <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
+      <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6 flex flex-col sm:flex-row items-start sm:items-center">
         <Calendar className="h-8 w-8 mr-3 text-blue-600" />
         Toplantı Rezervasyonu
       </h2>
@@ -388,7 +388,7 @@ const MeetingBookingForm = () => {
                     type="button"
                     disabled={!available || loading}
                     onClick={() => setSelectedTime(time)}
-                    className={`p-3 text-sm rounded-lg border transition-all duration-200 ${
+                    className={`p-2 sm:p-3 text-xs sm:text-sm rounded-lg border transition-all duration-200 ${
                       !available
                         ? 'bg-gray-100 dark:bg-gray-800 text-gray-400 border-gray-200 dark:border-gray-700 cursor-not-allowed'
                         : selectedTime === time
@@ -405,7 +405,7 @@ const MeetingBookingForm = () => {
         )}
 
         {/* Contact Information */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
           <div>
             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               <User className="inline h-4 w-4 mr-1" />
@@ -439,7 +439,7 @@ const MeetingBookingForm = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
           <div>
             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               <Phone className="inline h-4 w-4 mr-1" />
