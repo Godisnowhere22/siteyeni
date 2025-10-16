@@ -291,8 +291,8 @@ const SolutionsPage = () => {
 
                 <div className="mt-auto">
                   <Link
-                  className={`inline-flex items-center w-full justify-center px-4 sm:px-6 py-3 bg-gradient-to-r ${solution.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 text-sm sm:text-base`}
-                    className={`inline-flex items-center w-full justify-center px-6 py-3 bg-gradient-to-r ${solution.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200`}
+                    to={`/cozumler/${solution.id}`}
+                    className={`inline-flex items-center w-full justify-center px-4 sm:px-6 py-3 bg-gradient-to-r ${solution.color} text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 text-sm sm:text-base`}
                   >
                     Detayları İncele
                     <ArrowRight className="ml-2 h-5 w-5" />
