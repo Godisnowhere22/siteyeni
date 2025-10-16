@@ -30,19 +30,12 @@ const Header = () => {
               style={{ userSelect: 'none', WebkitUserSelect: 'none', MozUserSelect: 'none' }}
             />
             <div>
-              <span className="text-xl font-bold text-gray-900 dark:text-white block">
-                <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
-                  PrismaCore
-                </span>
-              </span>
-              <img
-                src="/Yapay-Zeka-Otomasyon-Sistemleri-gradient.svg"
-                alt="Yapay Zeka Otomasyon Sistemleri"
-                className="h-3 w-auto mt-1 select-none pointer-events-none"
-                onContextMenu={(e) => e.preventDefault()}
-                onDragStart={(e) => e.preventDefault()}
-                style={{ userSelect: 'none', WebkitUserSelect: 'none', MozUserSelect: 'none' }}
-              />
+              <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
+                PrismaCore
+              </h3>
+              <div className="text-xs font-medium bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mt-1 leading-tight">
+                Yapay Zeka Otomasyon Sistemleri
+              </div>
             </div>
           </Link>
 
