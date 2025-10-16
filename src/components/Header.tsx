@@ -20,20 +20,30 @@ const Header = () => {
         {/* min-h büyüttük ki logo sığsın */}
         <div className="flex justify-between items-center min-h-[80px]">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <img 
-              src="/favicon site.png" 
-              alt="PrismaCore.ai Logo" 
+          <Link to="/" className="flex items-center space-x-3 group">
+            <img
+              src="/favicon site.png"
+              alt="PrismaCore.ai Logo"
               className="h-12 w-12 object-contain select-none pointer-events-none"
               onContextMenu={(e) => e.preventDefault()}
               onDragStart={(e) => e.preventDefault()}
               style={{ userSelect: 'none', WebkitUserSelect: 'none', MozUserSelect: 'none' }}
             />
-           <span className="text-xl font-bold text-gray-900 dark:text-white">
-              <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
-                PrismaCore
+            <div>
+              <span className="text-xl font-bold text-gray-900 dark:text-white block">
+                <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
+                  PrismaCore
+                </span>
               </span>
-            </span>
+              <img
+                src="/Yapay-Zeka-Otomasyon-Sistemleri-gradient.svg"
+                alt="Yapay Zeka Otomasyon Sistemleri"
+                className="h-3 w-auto mt-1 select-none pointer-events-none"
+                onContextMenu={(e) => e.preventDefault()}
+                onDragStart={(e) => e.preventDefault()}
+                style={{ userSelect: 'none', WebkitUserSelect: 'none', MozUserSelect: 'none' }}
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
